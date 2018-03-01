@@ -1,0 +1,149 @@
+body {
+	font-family: verdana;
+	margin-left: auto;
+    margin-right: auto;
+	
+}
+#background {
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; 
+}
+.stretch {
+    width:100%;
+    height:100%;
+}
+h1 {
+    color: hotpink;
+	font-size: 40px;
+	text-align: center;
+	font-variant: small-caps;
+}
+h2 {
+	text-align: center;
+	
+}
+h3 {
+	text-align: left;
+	color: hotpink;
+	font-size: 30px;
+	font-variant: small-caps;
+}
+
+.sidenav {
+	background-color: rgba(255, 255, 255, 0.8);
+    width: 200px; 
+    top: 30%;
+    left: 10;
+	padding: 10px 10px 10px 10px;
+	border-radius: 0px;
+	float: left;
+	text-align: left;
+	margin-left: 70px;
+}
+.sidenav a{
+	text-decoration: none;
+	font-size: 20px;
+	color: purple;
+}
+.sidenav a:hover {
+	text-shadow: 1px 0px;
+}
+.main {
+	margin-left: 290px;
+	margin-right: 70px;
+	border-radius: 0px;
+	padding: 20px 20px 20px 20px;
+	background-color: rgba(255, 255, 255, 0.8);
+	position: relative;
+	text-align: center;
+	
+	
+}
+.header {
+	text-align: center;
+	font-size: 160px;
+	font-variant: small-caps;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.header a{
+	text-decoration: none;
+	color: purple;
+}
+
+ 
+.header .text {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.language-option {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	background-color: rgba(255, 255, 255, 0.8);
+	
+}
+.language-option a {
+	text-decoration: none;
+	font-size: 17px;
+}
+#images {
+	text-align:center;
+}
+.prevpic {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+	border: 2px solid white;
+}
+
+.language-option .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+	position: absolute;
+    z-index: 1;
+}
+.language-option:hover .tooltiptext {
+    visibility: visible;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.frontpic {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+	border: 2px solid white;
+}
+.main a {
+	text-decoration: none;
+	color: purple;
+}
+.main a:hover {
+	text-shadow: 1px 0px;
+}
+text {
+	text-align: center;
+}
+.download a{
+	font-size: 40px;
+	font-variant: small-caps;
+
+}
+.download a:hover{
+	text-shadow: 1px 0px;
+
+}
